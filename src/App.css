@@ -1,0 +1,92 @@
+/* Root styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Container for search results */
+.data-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Individual item style */
+.item {
+  background-color: #f9f9f9;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 16px;
+  width: 240px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Item image style */
+.item-img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+/* Result name style */
+.result-name {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: black;
+}
+
+/* Recipe details content style */
+.recipe-details-content {
+  max-width: 800px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .recipe-details-content {
+    max-width: 90%; /* Adjust the max-width for smaller screens */
+  }
+}
+
+.recipe-image {
+  width: 100%; /* Set the image width to 100% */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph style */
+p {
+  margin: 5px 0;
+  color: black;
+  font-size: 0.9rem; /* Adjust as needed */
+}
+
+/* Bold style */
+b {
+  font-weight: bold;
+}
+
+/* Recipe details style */
+.recipe-title {
+  color: black;
+}
+
+.recipe-details {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Meal details style */
+.meal-details {
+  background-color: #fff;
+}
+
+/* Cocktail details style */
+.cocktail-details {
+  background-color: #f2f2f2;
+}
